@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentCRUD.Core.Api", "StudentCRUD.Core.Api\StudentCRUD.Core.Api.csproj", "{13E962EC-11EE-4A32-95F3-355AE3949AE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentCRUD.Core.Tests.Unit", "StudentCRUD.Core.Tests.Unit\StudentCRUD.Core.Tests.Unit.csproj", "{980F1BF7-60B4-4E5A-B3E4-588B59A8FAD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentCRUD.Core.Tests.Unit", "StudentCRUD.Core.Tests.Unit\StudentCRUD.Core.Tests.Unit.csproj", "{980F1BF7-60B4-4E5A-B3E4-588B59A8FAD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentCRUD.Core.Infrastructure.Build", "StudentCRUD.Core.Infrastructure.Build\StudentCRUD.Core.Infrastructure.Build.csproj", "{2AD886A2-730A-4F5F-81D7-34E9CFFEA0CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{980F1BF7-60B4-4E5A-B3E4-588B59A8FAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{980F1BF7-60B4-4E5A-B3E4-588B59A8FAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{980F1BF7-60B4-4E5A-B3E4-588B59A8FAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD886A2-730A-4F5F-81D7-34E9CFFEA0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD886A2-730A-4F5F-81D7-34E9CFFEA0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD886A2-730A-4F5F-81D7-34E9CFFEA0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD886A2-730A-4F5F-81D7-34E9CFFEA0CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
