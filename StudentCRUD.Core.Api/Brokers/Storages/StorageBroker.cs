@@ -50,6 +50,7 @@ namespace StudentCRUD.Core.Api.Brokers.Storages
 
             return @object;
         }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string connectionString =
