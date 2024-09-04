@@ -29,6 +29,9 @@ namespace StudentCRUD.Core.Api.Brokers.Storages
             var broker = new StorageBroker(this.configuration);
             return broker.Set <T>();
         }
+
+        private async ValueTask<T> SelectAsync<T>(params object[] objectIds) where T : class =>
+            await FindAsync<T>(objectIds);
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string connectionString =
