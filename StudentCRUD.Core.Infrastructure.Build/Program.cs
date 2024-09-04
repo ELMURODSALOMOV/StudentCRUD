@@ -40,7 +40,7 @@ var githubPipeline = new GithubPipeline
 
                         TargetDotNetVersion = new TargetDotNetVersion
                         {
-                            DotNetVersion = "8.0.204" 
+                            DotNetVersion = "8.0.201" 
                         }
                     },
                     new RestoreTask
